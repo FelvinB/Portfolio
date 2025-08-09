@@ -1,0 +1,24 @@
+@import "button.css";
+@import "More.css";
+@import "About.css";
+@import "footer.css";
+@import "header.css";
+@import "Contact.css";
+@import "Home.css";
+@import "navbar.css";
+@import "sec.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1200px;
+}
