@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel = "stylesheet" href = "/assets/style/style.css">
+    <link rel = "stylesheet" href = "../assets/style/style.css">
 
 </head>
 <body>
@@ -15,31 +15,56 @@
                 <input type = "checkbox" class = "menu" id = "menu">
                 <label for="menu" class = "menu-btn" onclick = "openMenu()">☰</label>
                 <ul class = "nav-menu">
-                    <li><a href="/pages/Home.html">Home</a></li>
-                    <li><a href="/pages/About.html">About</a></li>
-                    <li><a href="/pages/Contact.html">Contact</a></li>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
                 </ul>
         </nav>
     </header>
-
-        <main>
-            <div><h1>CONTACT ME</h1></div>
+    <div><center><h1><i>CONTACT ME</i></h1></center></div>
+        <main id = "consme">
+            
                 <section class="Contact-port">
                     <div>
-                        <form></form>
-                    </div>
+                            <form action="./Submit.html">
+                                <div class="fullname">
+                                  <div id="formg">
+                                    <label for="firstName">Firstname:  </label>
+                                    <input type="text" id="firstName" placeholder="Enter your first name" required>
+                                  </div>
+                        
+                                  <div id="formg">
+                                    <label for="lastName">Lastname:  </label>
+                                    <input type="text" id="lastName" placeholder="Enter your last name" required>
+                                </div>
+                      
+                                <div id="formg">
+                                  <label for="email">Email:</label>
+                                  <input type="email" id="email" placeholder="Enter your email address" required>
+                                </div>
+                      
+                                <div id="formg">
+                                  <label for="num">Number:  </label>
+                                  <input type="number" id="numb" placeholder="Enter Number" required>
+                                </div>
 
-                    <div>
-                        <img src = "" alt="Felvin Picture">
-                        <img src = "" alt="CPC logo">
-                        <img src = "" alt="Telephone Logo">
-                        +63970 337 5931
-                        <img src = "" alt="Gmail Logo">
-                        felvinbags@gmail.com
-                        <img src = "" alt="Instagram Logo">
-                        @felvinbaguio
-                        <img src = "" alt="Facebook Logo">
-                        Felvin Baguio
+                                  <center><button type="submit" class="primary-btn">Submit</button></center>
+                                </form>
+                    </div>
+                    </section>
+                    <section class = "csec">
+                    <div class = "cpic">
+                        <img src = "../assets/image/felvin1.jpg" alt="Felvin Picture"></div>
+                        <div class = "logo">
+                        <a href="https://www.facebook.com/cpcofficial2005" target="_blank"><img src = "../assets/image/cpc.jpg" alt="CPC logo" class = "cpc"></a>
+                        <img src = "../assets/image/phone.jpg" alt="Telephone Logo">
+                        <p class = "log-br">+63970 337 5931</p>
+                        <img src = "../assets/image/gmail.jpg" alt="Gmail Logo">
+                        <p class = "log-br">felvinbags@gmail.com</p>
+                        <a href = "https://www.instagram.com/felvinbaguio/" target="_blank"><img src = "../assets/image/insta.jpg" alt="Instagram Logo"></a>
+                        <p class = "log-br">@felvinbaguio</p>
+                        <a href = "https://www.facebook.com/frenield" target="_blank"><img src = "../assets/image/fb.jpg" alt="Facebook Logo"></a>
+                        <p class = "log-br">Felvin Baguio</p>
                     </div>
                 </section>
         </main>
